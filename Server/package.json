@@ -1,0 +1,24 @@
+{
+  "name": "ummahbackend",
+  "version": "1.0.0",
+  "description": "Hikvision recorder backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2",
+    "cors": "2.8.5",
+    "digest-fetch": "2.0.3",
+    "dotenv": "16.1.4",
+    "express": "4.18.2",
+    "ffmpeg-static": "4.4.0",
+    "fluent-ffmpeg": "2.1.2",
+    "node-cron": "2.0.3",
+    "xml2js": "0.4.23",
+    "node-fetch": "2.6.12"
+  }
+}

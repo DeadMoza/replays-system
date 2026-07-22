@@ -1,0 +1,50 @@
+/* Custom Font */
+@font-face {
+  font-family: "Tajawal";
+  src: url("./fonts/Tajawal-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tajawal", Arial, sans-serif;
+}
+
+/* Root Container */
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Optional Defaults */
+body {
+  background: #f8fafc;
+  color: #020617;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: #383838; /* Deep black/blue */
+  color: #ffffff;
+}
